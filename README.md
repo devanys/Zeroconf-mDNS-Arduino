@@ -1,6 +1,6 @@
-# Arduino R4 WiFi Controller
+# Zeroconf mDNS Local Server Arduino R4 Wifi
 
-Arduino-connected LED over WiFi using a Python GUI. The project supports **mDNS discovery**, static IP, and real-time status monitoring.
+zero-configuration communication between a Python GUI and an Arduino device over WiFi. By leveraging mDNS (Multicast DNS), the Arduino automatically advertises its presence on the local network, allowing clients to discover it without knowing its IP address. Transforms the Arduino into a mini HTTP server, capable of receiving commands and sending real-time status updates
 
 ---
 
