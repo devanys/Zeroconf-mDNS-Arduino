@@ -56,5 +56,5 @@ This Arduino sketch connects the board to WiFi, hosts a web server, and responds
 - Supports mDNS (`arduino.local`) for automatic discovery
 
 ```bash
-TestMDNS.ino
+TestMdns.ino
 ```
