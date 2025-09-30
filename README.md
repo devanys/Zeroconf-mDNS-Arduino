@@ -15,6 +15,8 @@ Arduino-connected LED over WiFi using a Python GUI. The project supports **mDNS 
   - **F1** → LED ON
   - **F2** → LED OFF
   - **Enter** → Connect to Arduino
+    <img width="2256" height="1337" alt="Screenshot 2025-10-01 030130" src="https://github.com/user-attachments/assets/38a01b83-d952-4f78-88ec-08fddecb02e4" />
+
 
 ---
 
