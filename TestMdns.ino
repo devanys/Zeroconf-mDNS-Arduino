@@ -2,11 +2,9 @@
 #include <WiFiUdp.h>
 #include <ArduinoMDNS.h>
 
-// WiFi credentials
-const char* ssid     = "JUKONG JAYA";
-const char* password = "jukongjaya";
+const char* ssid     = "";
+const char* password = "";
 
-// Static IP (adjust to match your router)
 IPAddress local_IP(192, 168, 1, 150);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
@@ -15,7 +13,6 @@ WiFiServer server(80);
 int ledPin = 13;
 bool ledState = false;
 
-// UDP + mDNS
 WiFiUDP udp;
 MDNS mdns(udp);
 
@@ -23,7 +20,6 @@ void setup() {
   Serial.begin(115200);
   pinMode(ledPin, OUTPUT);
 
-  // Static IP (no DHCP)
   WiFi.config(local_IP, gateway, subnet);
 
   Serial.print("Connecting to ");
@@ -42,7 +38,6 @@ void setup() {
 
   server.begin();
 
-  // Start mDNS responder
   if (!mdns.begin(WiFi.localIP(), "arduino")) {
     Serial.println("❌ mDNS failed!");
   } else {
@@ -52,7 +47,7 @@ void setup() {
 }
 
 void loop() {
-  mdns.run();   // keep mDNS alive
+  mdns.run();  
 
   WiFiClient client = server.available();
   if (!client) return;
