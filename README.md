@@ -13,7 +13,13 @@ zero-configuration communication between a Python GUI and an Arduino device over
 - Activity log with timestamps
 - Keyboard shortcuts:
   - **F1** → LED ON
+    
+   ![WhatsApp Image 2025-10-01 at 03 25 17_0532d294](https://github.com/user-attachments/assets/049341a2-1105-49bd-82c1-7875a769f221)
+
   - **F2** → LED OFF
+    
+   ![WhatsApp Image 2025-10-01 at 03 25 00_c21ab7c8](https://github.com/user-attachments/assets/3c6ee9d2-df87-4b9a-b275-c53ab85b9513)
+
   - **Enter** → Connect to Arduino
     <img width="2256" height="1337" alt="Screenshot 2025-10-01 030130" src="https://github.com/user-attachments/assets/38a01b83-d952-4f78-88ec-08fddecb02e4" />
     
