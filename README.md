@@ -1,6 +1,4 @@
 # Arduino R4 WiFi Controller
-<img width="693" height="433" alt="image" src="https://github.com/user-attachments/assets/6779fa8c-34d8-49dd-8fce-1f2632c95849" />
-
 
 Arduino-connected LED over WiFi using a Python GUI. The project supports **mDNS discovery**, static IP, and real-time status monitoring.
 
@@ -9,6 +7,7 @@ Arduino-connected LED over WiFi using a Python GUI. The project supports **mDNS 
 ## Features
 
 - Discover Arduino via **mDNS** or connect via IP address
+  <img width="693" height="433" alt="image" src="https://github.com/user-attachments/assets/6779fa8c-34d8-49dd-8fce-1f2632c95849" />
 - Turn LED **ON/OFF** remotely
 - Check LED **status**
 - Activity log with timestamps
